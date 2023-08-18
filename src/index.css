@@ -27,7 +27,6 @@ body * {
 
 #root {
   width: 50%;
-  height: 300px;
   margin: 0 auto;
 }
 
@@ -87,6 +86,17 @@ button {
   cursor: pointer;
 }
 
+button[type="submit"]:hover {
+  background: #5b5ddf;
+}
+
+button[type="submit"]:active {
+  transition: 0.3s all;
+  transform: translateY(3px);
+  border: 1px solid transparent;
+  opacity: 0.8;
+}
+
 form div {
 /* text-align: right; */
   display: flex;
@@ -95,7 +105,7 @@ form div {
 
 h2 {
   text-align: center;
-  color: #109393;
+  color: #101293;
   font-size: 24px;
   line-height: 19px;
 }
@@ -109,8 +119,12 @@ button:disabled {
   cursor: not-allowed;
 }
 
+p::before {
+  display: inline;
+  content: "⚠ ";
+}
 
-.error {
+p {
   text-align: center;
   color: red;
 }
