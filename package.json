@@ -2,7 +2,7 @@
   "name": "drug",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://mariashalaginova.github.io/credit_card_form/",
+  "homepage": "https://MariaShalaginova.github.io/credit_card_form/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
