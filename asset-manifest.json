@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/credit_card_form/static/css/main.92d30ba2.css",
+    "main.js": "/credit_card_form/static/js/main.25bbc5c5.js",
+    "index.html": "/credit_card_form/index.html",
+    "main.92d30ba2.css.map": "/credit_card_form/static/css/main.92d30ba2.css.map",
+    "main.25bbc5c5.js.map": "/credit_card_form/static/js/main.25bbc5c5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.92d30ba2.css",
+    "static/js/main.25bbc5c5.js"
+  ]
+}
