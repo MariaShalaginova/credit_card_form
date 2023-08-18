@@ -11,10 +11,6 @@ body {
   line-height: 19px;
 }
 
-/* code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-} */
 body {
   margin: 0;
   height: 100%;
@@ -33,11 +29,8 @@ body * {
 form {
   display: flex;
   flex-direction: column;
-  /* margin-top: 40px; */
   width: 85%;
-  /* height: 523px; */
   height: fit-content;
-  /* margin: auto; */
   margin: 45px auto 80px 40px;
   box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.15);
   border-radius: 10px;
@@ -45,7 +38,6 @@ form {
 }
 
 input {
-/* font-family: 'Inter'; */
   font-size: 18px;
   line-height: 19px;
   height: 43px;
@@ -54,14 +46,9 @@ input {
   border-radius: 5px;
   margin: 10px;
   width: 60%;
-/*   aline-self: rigth */
-/*   text-align: right; */
 }
 
 label {
-/* font-family: 'Inter'; */
-  /* font-size: 16px;
-  line-height: 19px; */
   letter-spacing: 0.02em;
   color: #146bbd;
   margin-bottom: 15px;
@@ -71,7 +58,6 @@ label {
 
 button {
   width: 50%;
-  /* width: auto; */
   height: 59px;
   background: #5970FF;
   border-radius: 5px;
@@ -83,6 +69,7 @@ button {
   letter-spacing: 0.01em;
   color: #FFFFFF;
   margin: auto;
+  margin-top: 20px;
   cursor: pointer;
 }
 
@@ -98,7 +85,6 @@ button[type="submit"]:active {
 }
 
 form div {
-/* text-align: right; */
   display: flex;
   justify-content: flex-end;
 }
